@@ -1,0 +1,36 @@
+.post{
+    background-color: rgb(62, 156, 82);
+    color:rgb(14, 12, 12);
+    margin-left: 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.favoriteButton{
+    cursor: pointer;
+}
+.deleteForeverButton{
+    cursor: pointer;
+}
+.overlay{
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    z-index: 2;
+    background-color: rgb(37, 35, 35);
+}
+.addFormDiv{
+    text-align: center;
+    width: 620;
+    height: 400px;
+    z-index: 1;
+    top: 40%;
+    left: 35%;
+    margin: -125px 0 0 -125px;
+    border-radius: 10px;
+    background-color: rgb(197, 255, 195);
+    position: fixed;
+}

@@ -1,0 +1,65 @@
+body {
+    background: url(./components/parizh.jpg) no-repeat;
+    -moz-background-size: 100%; 
+    -webkit-background-size: 100%;
+    -o-background-size:100% ;
+    background-size: 100%; 
+}
+
+.submit{
+font-size:16px;
+background-color:rgb(44 68, 180)
+
+}
+ 
+
+ .modal-dialog_modal-sm{
+    text-align: center;
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -125px 0 0 -125px;
+    outline: 4px solid rgba(31, 35, 80, 0.8);
+
+background: rgba(126, 126, 255, 0.4);
+ }
+
+ .modal-header-h2{
+   font-family: 'Comforter', cursive;
+   color: rgb(76, 87, 182);
+ }
+.btn_btn-danger{
+    background-color: rgb(60, 81, 138);
+    padding: 3px 7px;
+    border-radius: 5px;
+    border: 3px solid rgb(33, 32, 51);
+}
+
+.rec{
+    position: absolute;
+    bottom: 0;
+}
+
+
+.close {
+    position: absolute;
+    right: 4px;
+    top: 4px;
+    width: 32px;
+    height: 32px;
+    opacity: 0.3;
+}
+ 
+.text1{
+  color: rgb(255, 0, 0);
+  margin-top: 100px;
+}
+.container-fluid{
+ position: relative; 
+ display: flex; 
+}
+
+
+
